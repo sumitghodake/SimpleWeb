@@ -8,7 +8,7 @@ app.listen(9000,function(){
 });
 
 app.get('/getform',function(req,res){
-    res.sendFile(__dirname+"/login.html");
+    res.sendFile(__dirname+"/EndModQ2.html");
 })
 app.post('/getDataTable',function(req,res){
     res.write("<table border=1>");
